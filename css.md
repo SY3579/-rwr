@@ -1,0 +1,43 @@
+#* {margin: 0;padding: 0;}01
+
+#main {margin: 30px auto;text-align: center;}
+
+/* #main .btns {margin-bottom: 20px;} */
+
+#main .btns button {background-color: #00ffcc;outline: none;border: none;color: white;padding: 6px 16px 6px;font-size: 20px;border-radius: 10px;margin: 0 20px 30px;cursor: pointer;}
+
+#main .btns button.active {background-color:#006666}
+
+table {border-spacing: 1px;margin: 0 auto;background-color: #9999ff;}
+
+td {width: 30px;height: 30px;background-color: #66ccff;border: 2px solid;border-color: #ffff00 #fff #fff #fff;font-weight: bold;}
+
+#main .info {margin-top: 20px;}
+
+#main .content {color: red;margin-top: 20px;}
+
+#main .gameBox td.mines {background: url(../images/3.png) no-repeat;background-size: cover;}
+
+td.zero {border-color: #cccccc;background-color: #9999ff;}
+
+td.one {border-color: #cccccc;background-color: #9999ff;columns: #ee82ee;;}
+
+td.two {border-color: #cccccc;background-color: #9999ff;color: green;}
+
+td.three {border-color: #cccccc;background-color: #9999ff;color: #0080ff;}
+
+td.four {border-color: #cccccc;background-color: #9999ff;color: #006666;}
+
+td.five {border-color: #cccccc;background-color: #9999ff;color: #EE0000;}
+
+td.six {border-color: #cccccc;background-color: #9999ff;color: #ffff00;}
+
+td.seven {border-color: #cccccc;background-color: #9999ff;color: #9999ff;}
+
+td.eight {border-color: #cccccc;background-color: #9999ff;color: #00ffcc;}
+
+td.click {background: #cccccc url(../images/1.png);background-size: cover;}   /* 点击出现雷的样式 */
+
+.main {background: #c0c0c0 url(../images/3.png);background-size: cover;border-color: #cccccc;} /* 显示的雷样式 */
+
+.flag {background: #c0c0c0 url(../images/444.jpg);background-size: cover;} /* 右击出现小红旗 */
